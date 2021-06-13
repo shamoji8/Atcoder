@@ -15,6 +15,7 @@ int main()
   rep(i, n) {
     c[i] = a[i] - (i + 1);
   }
+  // whileの条件の書き方、再確認
   while(q--) {
     ll k;
     cin >> k;
